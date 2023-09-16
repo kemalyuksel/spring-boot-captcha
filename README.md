@@ -25,7 +25,7 @@ publicCaptchaController() {
 
 this.defaultKaptcha = new DefaultKaptcha();
 
-// Captcha ayarları için config nesnesi oluşturuldu.
+// A configuration object was created for Captcha settings.
 Config config =newConfig(newProperties());
 
 // Captcha img width
